@@ -14,7 +14,6 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #2f3238;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
@@ -69,8 +68,6 @@ section {
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 400px;
-	max-width: 400px;
 	max-height: 360px;
 	width: 48%;
 	background: #3085a3;
@@ -213,8 +210,6 @@ figure.effect-julia {
 }
 
 figure.effect-julia img {
-	max-width: 400px;
-	max-height: 400px;
 	-webkit-transition: opacity 1s, -webkit-transform 1s;
 	transition: opacity 1s, transform 1s;
 	-webkit-backface-visibility: hidden;
