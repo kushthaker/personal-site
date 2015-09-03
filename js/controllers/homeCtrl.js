@@ -1,5 +1,8 @@
-function HomeCtrl() {
+function HomeCtrl(projectService) {
 
+	this.projectService = projectService;
+	this.projects = this.projectService.getProjects();	
+	
 }
 
 

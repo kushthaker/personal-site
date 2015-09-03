@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Project</th>
+            <th>Brief Description</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="project in ctrl.projects">
+            <td>{{project.title}}</td>
+            <td>{{project.caption}}</td>
+            <td>
+                <div>
+                    <a href="{{project.links.main}}">See project</a>
+                </div>
+                <div>
+                    <a href="{{project.links.main}}">Read more</a>
+                </div>
+                </td>
+        </tr>
+    </tbody>
+</table>                                  
+
+<pre>{{ctrl.projects | json}}</pre>

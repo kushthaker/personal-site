@@ -10,7 +10,7 @@ app.config(function($routeProvider) {
 		templateUrl: '../partials/projects.html',
 		controller: 'homeCtrl as ctrl'
 	})
-	.when('/', {
+	.when('/work', {
 		templateUrl: '../partials/work.html',
 		controller: 'homeCtrl as ctrl'
 	})
