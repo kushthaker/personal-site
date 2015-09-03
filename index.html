@@ -3,32 +3,44 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kush</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css"></head>
-	<!-- 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'> -->
+
+	<!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="css/hover.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css"></head>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <!-- ANGULAR SOURCE -->
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+
+    <!-- ANGULAR APP -->
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script type="text/javascript" src="js/controllers/homeCtrl.js"></script>
+    
+    <script type="text/javascript" src="js/controllers/projectService.js"></script>
+    <script type="text/javascript" src="js/controllers/workService.js"></script>
+    <script type="text/javascript" src="js/controllers/musicService.js"></script>
 
 
-	<body>
+	<body ng-app="kush">
 
 		<div class="container text-center">
 
 
 			<div class="row" id="header">
-				<div class="col-md-6 text-left">
-					<h1>KUSH THAKER</h1>
+				<div class="col-sm-6 text-left">
+					<h2>KUSH THAKER</h2>
 				</div>
-				<div class="col-md-6 text-right">
-					<p>icons</p>
-					<p>icons</p>
+				<div class="col-sm-6 text-right">
 					<p>icons</p>
 				</div>
 			</div>
 
 
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-12">
 					<div class="grid" id="menu">
 						<figure class="effect-marley">
 							<img src="img/project.png" alt="img/20"/>
@@ -61,7 +73,7 @@
 						<figure class="effect-marley">
 							<img src="img/blog.png" alt="img/20"/>
 							<figcaption>
-								<h2><span>Blog</span></h2>
+								<h2><span>Writing</span></h2>
 								<p>Marley tried to convince her but she was not interested.</p>
 								<a href="#">View more</a>
 							</figcaption>			
@@ -71,6 +83,10 @@
 			</div>
 
 
+			<div class="container">
+				<div ng-view></div>
+			</div>
+
 
 
 		</div>
@@ -78,12 +94,6 @@
 
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-		<script>
-			// For Demo purposes only (show hover effect on mobile devices)
-			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
-				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
-			} );
-		</script>
+		<script type="text/javascript" src="js/config.js"></script>
 	</body>
 	</html>
