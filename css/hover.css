@@ -68,6 +68,8 @@ section {
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
 	max-height: 360px;
 	width: 48%;
 	background: #3085a3;
@@ -164,6 +166,7 @@ figure.effect-marley p {
 
 figure.effect-marley h2 {
 	top: 30px;
+	font-size: 40px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
@@ -221,6 +224,7 @@ figure.effect-julia figcaption {
 }
 
 figure.effect-julia h2 {
+	font-size: 40px;
 	position: relative;
 	padding: 0.5em 0;
 }
