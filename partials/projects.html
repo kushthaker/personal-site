@@ -22,17 +22,17 @@
     </tbody>
 
 
-    <div class="container" ng-repeat="project in ctrl.projects" id="project_list">
+    <div id="project_list" class="container" ng-repeat="project in ctrl.projects">
         <div class="row">
             <div class="text-left col-sm-6">
                 <h1>{{project.title}}</h1>
             </div>
-            <div class="text-right col-sm-6">
+            <div class="text-right col-sm-6 links">
                 <a href="{{project.links.github}}">Github</a> 
                 <a href="{{project.links.demo}}">Demo</a>
             </div>
         </div>
-            <p>{{project.description}}</p>
+            <h4>{{project.description}}</h4>
             <h3>{{project.topic_1}}</h3>
             <p>{{project.topic_1_content}}</p>
             <h3>{{project.topic_2}}</h3>

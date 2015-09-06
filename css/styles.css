@@ -41,3 +41,43 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	color: #2f3238;
 }
 
+#project_list {
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+#project_list .container {
+	padding: 0px 40px;
+}
+
+#project_list h1, h3 {
+	font-weight: 600;
+}
+
+#project_list h1 {
+	font-size: 40px;
+}
+
+#project_list p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#project_list a {
+	display: block;
+}
+
+#project_list .links {
+	margin-top: 25px;
+}
+
+
+/*BOOTSTRAP OVERRIDE*/
+
+@media (min-width: 992px)
+.container {
+}
+
+
+
+
+
