@@ -1,2 +1,2 @@
 # personal-site
-Thinking of using ghost blog engine, customized theme. 
+What will be http://kushthaker.com...
