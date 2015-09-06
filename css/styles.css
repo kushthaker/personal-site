@@ -45,6 +45,10 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
+.projects {
+	margin-top: 50px;
+}
+
 #project_list .container {
 	padding: 0px 40px;
 }
@@ -73,11 +77,14 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
 /*BOOTSTRAP OVERRIDE*/
 
-@media (min-width: 992px)
-.container {
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+
+	#project_list {
+		padding: 0px 120px;
+	}
 }
-
-
-
 
 

@@ -20,9 +20,10 @@
                 </td>
         </tr>
     </tbody>
+</table>
 
 
-    <div id="project_list" class="container" ng-repeat="project in ctrl.projects">
+    <div id="project_list" class="container projects" ng-repeat="project in ctrl.projects">
         <div class="row">
             <div class="text-left col-sm-6">
                 <h1>{{project.title}}</h1>
@@ -39,9 +40,6 @@
             <p>{{project.topic_2_content}}</p>
     </div>
 
-
-
-
-</table>                                  
+                                 
 
 <pre>{{ctrl.projects | json}}</pre>
