@@ -13,87 +13,68 @@ WorkService.prototype.getWorkList = function() {
 };
 
 var WORK_DATA = [{
-	"company": "mynews",
+	"company": "Polar (MediaVoice)",
 	"logo": "img_here",
-	"role": "mynews",
-	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
+	"role": "Marketing Analyst",
+	"date": "Sep - Dec 2014",
+	"caption": "Polar is a advertising technology firm that works with the world's largest publishers.",
 	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
+		"benchmarks": "http://polar.me/benchmarks/"
 	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+	"description": "Queried, analyzed and presented insights on reporting data from client's advertising programs. Summarized performance benchmarks for native advertisements across publishing industry."
 }, {
-	"company": "mynews",
+	"company": "AGF Investments",
 	"logo": "img_here",
-	"role": "mynews",
+	"role": "Web Content Co-op",
 	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
+	"caption": "AGF is one of Canada’s leading independent asset management firms.",
 	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
+		"AGF": "https://www.agf.com/t2scr/static/app/homepage/public/en/index.jsp",
 	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}, {
-	"company": "mynews",
+	"description": "Organized sales notes, market insights and commentaries for sales team and advisors. Developed webpages on both internal and client-facing sites."
+}}
+
+
+var EDUCATION_DATA = [
+{
+	"company": "Brainstation",
 	"logo": "img_here",
-	"role": "mynews",
-	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
+	"role": "Student",
+	"date": "June - Aug 2015",
+	"caption": "Full-stack web development course.",
 	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
-	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}, {
-	"company": "mynews",
+		"main": "http://www.brainstation.io/course/toronto/web-development-immersive",
+	}
+} , {
+	"company": "University of Waterloo",
 	"logo": "img_here",
-	"role": "mynews",
+	"role": "B.ASc Candidate",
 	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
+	"caption": "Studying Systems Design Engineering, a 5 year program.",
 	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
-	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}, {
-	"company": "mynews",
+		"courses": "https://ugradcalendar.uwaterloo.ca/page/ENG-Systems-Design-Engineering",
+	} 
+}]
+
+var AWARDS_DATA = [
+{
+	"award": "TD Scholarship for Community Leadership",
 	"logo": "img_here",
-	"role": "mynews",
-	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
+	"date": "2013",
+	"description": "'Twenty TD Scholarships for Community Leadership are awarded to students in their last year of high school who have demonstrated leadership in improving their community. Each scholarship has a value of up to $70,000.'",
 	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
-	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}, {
-	"company": "mynews",
-	"logo": "img_here",
-	"role": "mynews",
-	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
-	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
-	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}, {
-	"company": "mynews",
-	"logo": "img_here",
-	"role": "mynews",
-	"date": "Jan - Apr 2014",
-	"caption": "Using AngularJS to aggregate news from multiple external APIs.",
-	"links": {
-		"main": "https://github.com/kushthaker/mynews.git",
-		"github": "https://github.com/kushthaker/mynews.git",
-		"demo": "http://mynews.kushthaker.com/",
-	},
-	"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-}]  
+		"TD": "http://www.tdcanadatrust.com/products-services/banking/student-life/scholarship-for-community-leadership/index.jsp",
+	}
+}
+
+]
+
+
+
+
+
+
+
+
+
+
