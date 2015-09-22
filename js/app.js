@@ -11,7 +11,7 @@ app.config(function($routeProvider) {
 		controller: 'homeCtrl as ctrl'
 	})
 	.when('/work', {
-		templateUrl: '../partials/work.html',
+		templateUrl: '../partials/resume.html',
 		controller: 'homeCtrl as ctrl'
 	})
 	.otherwise({

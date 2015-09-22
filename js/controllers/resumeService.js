@@ -1,16 +1,23 @@
-function WorkService() {
-
-	this.work = this.getWorkList();
+function ResumeService() {
 
 }
 
 
-angular.module('kush').service('workService', WorkService);
+angular.module('kush').service('resumeService', ResumeService);
 
 
-WorkService.prototype.getWorkList = function() {
+ResumeService.prototype.getWorkData = function() {
 	return WORK_DATA;
 };
+
+ResumeService.prototype.getEduData = function() {
+	return EDUCATION_DATA;
+};
+
+ResumeService.prototype.getAwardData = function() {
+	return AWARDS_DATA;
+};
+
 
 var WORK_DATA = [{
 	"company": "Polar (MediaVoice)",
@@ -32,7 +39,7 @@ var WORK_DATA = [{
 		"AGF": "https://www.agf.com/t2scr/static/app/homepage/public/en/index.jsp",
 	},
 	"description": "Organized sales notes, market insights and commentaries for sales team and advisors. Developed webpages on both internal and client-facing sites."
-}}
+}]
 
 
 var EDUCATION_DATA = [

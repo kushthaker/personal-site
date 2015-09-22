@@ -1,11 +1,13 @@
-function HomeCtrl(projectService, workService, $location) {
+function HomeCtrl(projectService, resumeService, $location) {
 
 	this.projectService = projectService;
-	this.workService = workService;
+	this.resumeService = resumeService;
 	this.location = $location;
 
 	this.projects = this.projectService.getProjects();	
-	this.workList = this.workService.getWorkList();	
+	this.work = this.resumeService.getWorkData();	
+	this.edu = this.resumeService.getEduData();	
+	this.awards = this.resumeService.getAwardData();	
 	
 }
 
