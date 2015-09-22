@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work</title>
+</head>
+<body>
+
+
+
+    <div id="project_list" class="container projects" ng-repeat="work in ctrl.workList">
+        <div class="row">
+            <div class="text-left col-sm-6">
+                <h1>{{work.company}}</h1>
+                <h3>{{work.role}}</h3>
+            </div>
+            <div class="text-right col-sm-6 links">
+            	<p>{{work.date}}</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

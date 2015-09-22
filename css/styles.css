@@ -1,4 +1,4 @@
-/*
+	/*
 
 http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
@@ -83,6 +83,10 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	}
 
 	#project_list {
+		padding: 0px 120px;
+	}
+
+	#work_list {
 		padding: 0px 120px;
 	}
 }
