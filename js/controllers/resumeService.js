@@ -21,7 +21,7 @@ ResumeService.prototype.getAwardData = function() {
 
 var WORK_DATA = [{
 	"company": "Polar (MediaVoice)",
-	"logo": "img_here",
+	"logo": "../../img/polar.png",
 	"role": "Marketing Analyst",
 	"date": "Sep - Dec 2014",
 	"caption": "Polar is a advertising technology firm that works with the world's largest publishers.",
@@ -31,7 +31,7 @@ var WORK_DATA = [{
 	"description": "Queried, analyzed and presented insights on reporting data from client's advertising programs. Summarized performance benchmarks for native advertisements across publishing industry."
 }, {
 	"company": "AGF Investments",
-	"logo": "img_here",
+	"logo": "../../img/agf.jpg",
 	"role": "Web Content Co-op",
 	"date": "Jan - Apr 2014",
 	"caption": "AGF is one of Canada’s leading independent asset management firms.",
@@ -45,7 +45,7 @@ var WORK_DATA = [{
 var EDUCATION_DATA = [
 {
 	"company": "Brainstation",
-	"logo": "img_here",
+	"logo": "../../img/brainstation.png",
 	"role": "Student",
 	"date": "June - Aug 2015",
 	"caption": "Full-stack web development course.",
@@ -54,9 +54,9 @@ var EDUCATION_DATA = [
 	}
 } , {
 	"company": "University of Waterloo",
-	"logo": "img_here",
+	"logo": "../../img/waterloo.jpg",
 	"role": "B.ASc Candidate",
-	"date": "Jan - Apr 2014",
+	"date": "2013 - 2018",
 	"caption": "Studying Systems Design Engineering, a 5 year program.",
 	"links": {
 		"courses": "https://ugradcalendar.uwaterloo.ca/page/ENG-Systems-Design-Engineering",
@@ -66,7 +66,7 @@ var EDUCATION_DATA = [
 var AWARDS_DATA = [
 {
 	"award": "TD Scholarship for Community Leadership",
-	"logo": "img_here",
+	"logo": "../../img/td.png",
 	"date": "2013",
 	"description": "'Twenty TD Scholarships for Community Leadership are awarded to students in their last year of high school who have demonstrated leadership in improving their community. Each scholarship has a value of up to $70,000.'",
 	"links": {

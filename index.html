@@ -22,6 +22,7 @@
     <script type="text/javascript" src="js/controllers/projectService.js"></script>
     <script type="text/javascript" src="js/controllers/resumeService.js"></script>
     <script type="text/javascript" src="js/controllers/musicService.js"></script>
+    <script type="text/javascript" src="js/directives/scroll-detector.js"></script>
 
 
 	<body ng-app="kush">
@@ -36,7 +37,7 @@
 				</div>
 			</div>
 
-			<a name="home"></a>
+			<div scroll-detector>
 
 			<div class="row">
 				<div class="col-sm-12">
@@ -46,15 +47,15 @@
 							<figcaption>
 								<h2><span>Projects</span></h2>
 								<p>Marley tried to convince her but she was not interested.</p>
-								<a href="#/projects#project_table"></a>
+								<a href="#/projects#table"></a>
 							</figcaption>			
 						</figure>
 						<figure class="effect-marley">
 							<img src="img/work.png" alt="img/20"/>
 							<figcaption>
-								<h2><span>Work</span></h2>
+								<h2><span>CV</span></h2>
 								<p>Marley tried to convince her but she was not interested.</p>
-								<a href="#/work">View more</a>
+								<a href="#/resume#resume">View more</a>
 							</figcaption>			
 						</figure>
 						<figure class="effect-julia">
@@ -80,6 +81,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
 		</div>
 
 		<div class="container">
