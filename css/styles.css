@@ -66,10 +66,23 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 }
 
 .fa-envelope:hover {
-	color: #A67A32;
+	color: #23744D;
 }
 
 /*START OF PROJECT SECTION*/
+
+#project_table {
+	font-family: 'Droid Serif', serif;
+}
+
+#project_table h2 {
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+#project_table p {
+	font-size: 16px;
+}
 
 #project_list {
 	font-family: 'Droid Serif', serif;
@@ -106,6 +119,7 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	font-size: 16px;
 	line-height: 25px;
 	padding: 20px 0px;
+	font-family: 'Droid Serif', serif;
 }
 
 #project_list a {
@@ -114,10 +128,6 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
 #project_list .links {
 	margin-top: 25px;
-}
-
-#project_list p {
-	font-family: 'Droid Serif', serif;
 }
 
 /*START OF RESUME SECTION*/

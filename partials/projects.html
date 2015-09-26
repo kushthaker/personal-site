@@ -1,49 +1,58 @@
 
 <a id="table"></a>
 
+<div id="project_table" class="container-fluid text-center">
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Project</th>
-            <th>Brief Description</th>
-            <th>Link</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr ng-repeat="project in ctrl.projects" id="project_table">
-            <td>{{project.title}}</td>
-            <td>{{project.caption}}</td>
-            <td>
-                <div>
-                    <a href="{{project.links.main}}">See project</a>
-                </div>
-                <div>
-                    <a href="{{project.links.main}}">Read more</a>
-                </div>
-                </td>
-        </tr>
-    </tbody>
-</table>
-
-
-    <div id="project_list" class="container projects" ng-repeat="project in ctrl.projects">
-        <div class="row">
-            <div class="text-left col-sm-6">
-                <h1>{{project.title}}</h1>
-            </div>
-            <div class="text-right col-sm-6 links">
-                <a href="{{project.links.github}}">Github</a> 
-                <a href="{{project.links.demo}}">Demo</a>
-            </div>
-        </div>
-            <h3>{{project.description}}</h3>
-            <h2>{{project.topic_1}}</h2>
-            <p>{{project.topic_1_content}}</p>
-            <h2>{{project.topic_2}}</h2>
-            <p>{{project.topic_2_content}}</p>
+<div clas="row">
+    <div class="col-sm-2">
+        <h2>Project</h2>
     </div>
+    <div class="col-sm-8">
+        <h2>Description</h2>
+    </div>
+    <div class="col-sm-2">
+        <h2>Links</h2>
+    </div>
+</div>
 
-                                 
+
+<div ng-repeat="project in ctrl.projects">
+    <div class="row">
+        <div class="col-sm-2">
+            <p>{{project.title}}</p>
+        </div>
+        <div class="col-sm-8">
+            <p>{{project.caption}}</p>
+        </div>
+        <div class="col-sm-2">
+            <span>
+            <a href="{{project.links.main}}"><i class="fa fa-github fa-2x"></i></a>
+            <a href="{{project.links.main}}"><i class="fa fa-github fa-2x"></i></a>
+            </span>
+        </div>
+    </div>
+    <div class="resume_space"></div>
+</div>
+
+</div>
+
+<div id="project_list" class="container projects" ng-repeat="project in ctrl.projects">
+    <div class="row">
+        <div class="text-left col-sm-6">
+            <h1>{{project.title}}</h1>
+        </div>
+        <div class="text-right col-sm-6 links">
+            <a href="{{project.links.github}}">Github</a> 
+            <a href="{{project.links.demo}}">Demo</a>
+        </div>
+    </div>
+    <h3>{{project.description}}</h3>
+    <h2>{{project.topic_1}}</h2>
+    <p>{{project.topic_1_content}}</p>
+    <h2>{{project.topic_2}}</h2>
+    <p>{{project.topic_2_content}}</p>
+</div>
+
+
 
 <pre>{{ctrl.projects | json}}</pre>
