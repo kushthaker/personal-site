@@ -7,17 +7,21 @@
 
 
 
-    <div class="space"></div>
+    
     <a id="resume"></a>
+    <div class="space"></div>
 
     <div id="resume_list">
 
+        <div class="text-center">
+            <h2>A collection of my recent experiences. PDF <a>here.</a></h2>
+        </div>
 
         <div class="resume_section">
             <h1>Work</h1>
             <div ng-repeat="work in ctrl.work">
                 <div class="row">
-                    <div class="col-sm-3 links">
+                    <div class="col-sm-3 resume_img_space">
                         <img ng-src="{{work.logo}}" />
                     </div>
                     <div class="col-sm-9">
@@ -36,7 +40,7 @@
             <h1>Education</h1>
             <div ng-repeat="edu in ctrl.edu">
                 <div class="row">
-                    <div class="col-sm-3 links">
+                    <div class="col-sm-3 resume_img_space">
                         <img ng-src="{{edu.logo}}" />
                     </div>
                     <div class="col-sm-9">
@@ -53,7 +57,7 @@
             <h1>Awards</h1>
             <div ng-repeat="award in ctrl.awards">
                 <div class="row">
-                    <div class="col-sm-3 links">
+                    <div class="col-sm-3 resume_img_space">
                         <img ng-src="{{award.logo}}" />
                     </div>
                     <div class="col-sm-9">
@@ -65,6 +69,7 @@
             </div>
             <div class="resume_space"></div>
         </div>
+
     </div>
 
     <div class="space"></div>

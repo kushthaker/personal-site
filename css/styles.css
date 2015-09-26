@@ -29,9 +29,13 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
 */
 
-#header h1, p {
-	color: black;
+#header p {
+	font-size: 34px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	padding-left: 10px;
 }
+
 
 #menu p {
 	color: white;
@@ -41,9 +45,28 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	color: #2f3238;
 }
 
-
 .space {
 	padding: 30px 0px;
+}
+
+.fa {
+	padding: 6px 10px;
+}
+
+.fa:hover {
+	cursor: pointer;
+}
+
+.fa-github:hover {
+	color: #A65032;
+}
+
+.fa-twitter:hover {
+	color: #A67A32;
+}
+
+.fa-envelope:hover {
+	color: #A67A32;
 }
 
 /*START OF PROJECT SECTION*/
@@ -111,6 +134,7 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 #resume_list h1 {
 	font-size: 30px;
 	text-decoration: underline;
+	padding-bottom: 20px;
 }
 
 #resume_list h2 {
@@ -132,9 +156,14 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	padding: 10px 0px;
 }
 
+.resume_img_space {
+	padding-top: 18px;
+}
+
 .resume_section {
 	padding: 10px 0px;
 }
+
 
 /*BOOTSTRAP OVERRIDE*/
 
