@@ -5,50 +5,69 @@
 </head>
 <body>
 
-<a id="resume"></a>
 
-    <div id="project_list">
 
-        <div ng-repeat="work in ctrl.work">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1>{{work.company}}</h1>
-                    <h3>{{work.role}} | {{work.date}} </h3>
-                    {{work.description}}
+    <div class="space"></div>
+    <a id="resume"></a>
+
+    <div id="resume_list">
+
+
+        <div class="resume_section">
+            <h1>Work</h1>
+            <div ng-repeat="work in ctrl.work">
+                <div class="row">
+                    <div class="col-sm-3 links">
+                        <img ng-src="{{work.logo}}" />
+                    </div>
+                    <div class="col-sm-9">
+                        <h2>{{work.company}}</h2>
+                        <h3>{{work.role}} | {{work.date}} </h3>
+                        <p>{{work.description}}</p>
+                    </div>
                 </div>
-                <div class="col-sm-3 links">
-                    <img ng-src="{{work.logo}}" />
-                </div>
+                <div class="resume_space"></div>
             </div>
+
         </div>
 
-        <div ng-repeat="edu in ctrl.edu">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1>{{edu.company}}</h1>
-                    <h3>{{edu.role}} | {{edu.date}} </h3>
-                    {{edu.caption}}
-                </div>
-                <div class="col-sm-3 links">
-                    <img ng-src="{{edu.logo}}" />
+
+        <div class="resume_section">
+            <h1>Education</h1>
+            <div ng-repeat="edu in ctrl.edu">
+                <div class="row">
+                    <div class="col-sm-3 links">
+                        <img ng-src="{{edu.logo}}" />
+                    </div>
+                    <div class="col-sm-9">
+                        <h2>{{edu.company}}</h2>
+                        <h3>{{edu.role}} | {{edu.date}} </h3>
+                        <p>{{edu.caption}}</p>
+                    </div>
                 </div>
             </div>
+            <div class="resume_space"></div>
         </div>
 
-        <div ng-repeat="award in ctrl.awards">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1>{{award.award}}</h1>
-                    <h3>{{award.date}} </h3>
-                    {{award.description}}
-                </div>
-                <div class="col-sm-3 links">
-                    <img ng-src="{{award.logo}}" />
+        <div class="resume_section">
+            <h1>Awards</h1>
+            <div ng-repeat="award in ctrl.awards">
+                <div class="row">
+                    <div class="col-sm-3 links">
+                        <img ng-src="{{award.logo}}" />
+                    </div>
+                    <div class="col-sm-9">
+                        <h2>{{award.award}}</h2>
+                        <h3>{{award.date}} </h3>
+                        <p>{{award.description}}</p>
+                    </div>
                 </div>
             </div>
+            <div class="resume_space"></div>
         </div>
-
     </div>
+
+    <div class="space"></div>
 
 
 

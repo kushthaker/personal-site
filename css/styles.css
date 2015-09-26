@@ -41,8 +41,15 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	color: #2f3238;
 }
 
+
+.space {
+	padding: 30px 0px;
+}
+
+/*START OF PROJECT SECTION*/
+
 #project_list {
-	font-family: 'Raleway', Arial, sans-serif;
+	font-family: 'Droid Serif', serif;
 }
 
 .projects {
@@ -53,17 +60,29 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	padding: 0px 40px;
 }
 
-#project_list h1, h3 {
-	font-weight: 600;
+#project_list h1, h2 {
+	font-weight: 700;
+	font-family: 'Bitter', serif;
 }
 
 #project_list h1 {
-	font-size: 40px;
+	font-size: 30px;
+}
+
+#project_list h2 {
+	font-size: 25px;
+}
+
+#project_list h3 {
+	line-height: 30px;
+	font-size: 18px;
+	padding: 20px 0px;
 }
 
 #project_list p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
+	padding: 20px 0px;
 }
 
 #project_list a {
@@ -74,6 +93,48 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 	margin-top: 25px;
 }
 
+#project_list p {
+	font-family: 'Droid Serif', serif;
+}
+
+/*START OF RESUME SECTION*/
+
+#resume_list {
+	font-family: 'Droid Serif', serif;
+}
+
+#resume_list h1, h2 {
+	font-weight: 700;
+	font-family: 'Bitter', serif;
+}
+
+#resume_list h1 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#resume_list h2 {
+	font-size: 25px;
+}
+
+#resume_list h3 {
+	font-size: 18px;
+}
+
+#resume_list p {
+	font-size: 14px;
+	line-height: 25px;
+	padding: 10px 0px;
+	font-family: 'Droid Serif', serif;
+}
+
+.resume_space {
+	padding: 10px 0px;
+}
+
+.resume_section {
+	padding: 10px 0px;
+}
 
 /*BOOTSTRAP OVERRIDE*/
 
@@ -84,6 +145,10 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
 	#project_list {
 		padding: 0px 120px;
+	}
+
+	#resume_list {
+		padding: 0px 70px 0px 130px;
 	}
 
 	#work_list {
