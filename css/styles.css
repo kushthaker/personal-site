@@ -119,6 +119,12 @@ a {
 	font-size: 30px;
 }
 
+.project_page_header {
+	font-weight: 700;
+	font-family: 'Bitter', serif;
+	font-size: 25px;
+}
+
 #project_list h2 {
 	font-size: 25px;
 }
