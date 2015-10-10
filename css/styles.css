@@ -29,16 +29,17 @@ http://paletton.com/#uid=53w0u0kt+lZlOstrKqzzSiaJidt\
 
 */
 
+
 a {
 	color: inherit;
 	cursor: pointer;
 }
 
 #header p {
-	font-size: 34px;
+	font-size: 36px;
 	font-family: 'Bitter', serif;
 	font-weight: 700;
-	padding-left: 10px;
+	padding-left: 12px;
 }
 
 
@@ -123,6 +124,7 @@ a {
 	font-weight: 700;
 	font-family: 'Bitter', serif;
 	font-size: 25px;
+	line-height: 35px;
 }
 
 #project_list h2 {
@@ -184,6 +186,7 @@ a {
 
 #resume_list h2 {
 	font-size: 25px;
+	line-height: 35px;
 }
 
 #resume_list h3 {
@@ -230,20 +233,24 @@ a {
 	}
 }
 
+.attach {
+	font-weight: 300;
+}
+
 @media (max-width: 768px) {
 
 	.grid figure {
-	    position: relative;
-	    float: left;
-	    overflow: hidden;
-	    margin: 10px 1%;
-	    min-width: 100%;
-	    max-width: 480px;
-	    max-height: 360px;
-	    width: 48%;
-	    background: #3085a3;
-	    text-align: center;
-	    cursor: pointer;
+		position: relative;
+		float: left;
+		overflow: hidden;
+		margin: 10px 1%;
+		min-width: 100%;
+		max-width: 480px;
+		max-height: 100%;
+		width: 48%;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
 	}
 
 	.resume_img_space {
@@ -252,8 +259,28 @@ a {
 	}
 
 	#project_table {
-	font-family: 'Droid Serif', serif;
-	text-align: left;
+		font-family: 'Droid Serif', serif;
+		text-align: left;
+	}
+
+	.grid figure.effect-marley.project_tile {
+		background: #B04826;
+	}
+
+	.grid figure.effect-marley.resume_tile {
+		background: #07774E;
+	}
+
+	.grid figure.effect-julia.music_tile {
+		background: #26446D ;
+	}
+
+	.grid figure.effect-marley.writing_tile {
+		background: #AC7625;
+	}
+
+	#header .col-sm-6 {
+		text-align: center;
 	}
 
 
