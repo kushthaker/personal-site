@@ -232,7 +232,30 @@ a {
 
 @media (max-width: 768px) {
 
-/*SOME WORK TO DO HERE*/
+	.grid figure {
+	    position: relative;
+	    float: left;
+	    overflow: hidden;
+	    margin: 10px 1%;
+	    min-width: 100%;
+	    max-width: 480px;
+	    max-height: 360px;
+	    width: 48%;
+	    background: #3085a3;
+	    text-align: center;
+	    cursor: pointer;
+	}
+
+	.resume_img_space {
+		padding-top: 18px;
+		display: none;
+	}
+
+	#project_table {
+	font-family: 'Droid Serif', serif;
+	text-align: left;
+	}
+
 
 }
 
