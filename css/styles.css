@@ -283,6 +283,11 @@ a {
 		text-align: center;
 	}
 
+	.grid figure.effect-julia.music_tile figcaption {
+		color: white;
+	}
+
+
 
 }
 
