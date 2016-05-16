@@ -20,6 +20,16 @@ ResumeService.prototype.getAwardData = function() {
 
 
 var WORK_DATA = [{
+	"company": "Rubicon Project",
+	"logo": "../../img/rubicon.jpg",
+	"role": "MySQL Database Administrator",
+	"date": "Jan - Apr 2016",
+	"caption": "Rubicon Project is a technology company automating the buying and selling of advertising.",
+	"links": {
+		"benchmarks": "http://polar.me/benchmarks/"
+	},
+	"description": "Managed MySQL system across multiple servers, applied changes to production databases, and wrote documentation for internal stakeholders."
+}, {
 	"company": "Polar (MediaVoice)",
 	"logo": "../../img/polar.png",
 	"role": "Marketing Analyst",
