@@ -20,9 +20,29 @@ ResumeService.prototype.getAwardData = function() {
 
 
 var WORK_DATA = [{
+	"company": "AppDirect",
+	"logo": "../../img/appdirect.jpg",
+	"role": "Associate Product Manager",
+	"date": "May - Dec 2018",
+	"caption": "",
+	"links": {
+		"benchmarks": "http://polar.me/benchmarks/"
+	},
+	"description": ""
+}, {
+	"company": "Influitive",
+	"logo": "../../img/influitive.jpg",
+	"role": "Product Manger Intern",
+	"date": "Sep 2016 - Dec 2017",
+	"caption": "",
+	"links": {
+		"benchmarks": "http://polar.me/benchmarks/"
+	},
+	"description": "" 
+},{
 	"company": "Rubicon Project",
 	"logo": "../../img/rubicon.jpg",
-	"role": "MySQL Database Administrator",
+	"role": "MySQL Database Administrator Intern",
 	"date": "Jan - Apr 2016",
 	"caption": "Rubicon Project is a technology company automating the buying and selling of advertising.",
 	"links": {
@@ -32,7 +52,7 @@ var WORK_DATA = [{
 }, {
 	"company": "Polar (MediaVoice)",
 	"logo": "../../img/polar.png",
-	"role": "Marketing Analyst",
+	"role": "Marketing Analyst Intern",
 	"date": "Sep - Dec 2014",
 	"caption": "Polar is a advertising technology firm that works with the world's largest publishers.",
 	"links": {
