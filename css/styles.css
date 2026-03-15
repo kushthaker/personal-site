@@ -53,7 +53,7 @@ main .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 4rem;
+  gap: 2.5rem;
   width: 100%;
 }
 
@@ -66,8 +66,8 @@ main .container {
    Avatar
 ───────────────────────────────────────── */
 .avatar-wrapper {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--border);
@@ -97,7 +97,7 @@ main .container {
 
 h1 {
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  font-size: clamp(2.75rem, 7vw, 4.25rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.01em;
@@ -229,6 +229,21 @@ footer p {
 /* ─────────────────────────────────────────
    Responsive
 ───────────────────────────────────────── */
+@media (max-width: 760px) {
+  main .container {
+    gap: 2rem;
+  }
+
+  .avatar-wrapper {
+    width: 140px;
+    height: 140px;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 640px) {
   main {
     padding: 3rem 0 2.5rem;
@@ -243,8 +258,8 @@ footer p {
   }
 
   .avatar-wrapper {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
 
   .org {
