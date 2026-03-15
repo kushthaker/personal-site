@@ -66,8 +66,8 @@ main .container {
    Avatar
 ───────────────────────────────────────── */
 .avatar-wrapper {
-  width: 180px;
-  height: 180px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--border);
@@ -87,7 +87,7 @@ main .container {
    Hero
 ───────────────────────────────────────── */
 .eyebrow {
-  font-size: 0.8125rem;
+  font-size: 1.8125rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
