@@ -50,6 +50,20 @@ main {
 }
 
 /* ─────────────────────────────────────────
+   Avatar
+───────────────────────────────────────── */
+.avatar {
+  display: block;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 52% 18%;
+  border: 2px solid var(--border);
+  margin-bottom: 1.75rem;
+}
+
+/* ─────────────────────────────────────────
    Hero
 ───────────────────────────────────────── */
 .eyebrow {
