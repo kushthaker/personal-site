@@ -52,7 +52,7 @@ main {
 main .container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 2.5rem;
   width: 100%;
 }
@@ -95,6 +95,15 @@ main .container {
   margin-bottom: 1.25rem;
 }
 
+.title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
   font-size: clamp(2rem, 4vw, 3rem);
@@ -102,7 +111,7 @@ h1 {
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--text);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
 }
 
 .org {
@@ -112,7 +121,7 @@ h1 {
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--navy);
-  margin-bottom: 2rem;
+  margin-bottom: 0.375rem;
 }
 
 .org::before {
