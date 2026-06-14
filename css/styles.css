@@ -139,13 +139,14 @@ h1 {
   color: var(--text-muted);
   line-height: 1.8;
   max-width: 560px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .education {
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--text-muted);
+  margin-top: 0.25rem;
   margin-bottom: 2.75rem;
 }
 
