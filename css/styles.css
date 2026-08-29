@@ -275,8 +275,9 @@ footer p {
   }
 
   .avatar-wrapper {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
+    align-self: center;
   }
 
   .org {
