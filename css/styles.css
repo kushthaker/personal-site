@@ -37,7 +37,7 @@ body {
    Layout
 ───────────────────────────────────────── */
 .container {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -134,11 +134,11 @@ h1 {
 }
 
 .bio {
-  font-size: 1.0625rem;
+  font-size: 1rem;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.8;
-  max-width: 560px;
+  max-width: 600px;
   margin-bottom: 1.25rem;
 }
 
