@@ -37,7 +37,7 @@ body {
    Layout
 ───────────────────────────────────────── */
 .container {
-  max-width: 960px;
+  max-width: 945px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -272,7 +272,6 @@ footer p {
     align-items: center;
     gap: 2rem;
     text-align: left;
-    padding: 0 3rem;
   }
 
   .avatar-wrapper {
