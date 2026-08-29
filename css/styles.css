@@ -272,6 +272,7 @@ footer p {
     align-items: center;
     gap: 2rem;
     text-align: left;
+    padding: 0 3rem;
   }
 
   .avatar-wrapper {
