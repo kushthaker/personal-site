@@ -271,16 +271,18 @@ footer p {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    text-align: center;
+    text-align: left;
+    padding: 0 3rem;
   }
 
   .avatar-wrapper {
     width: 120px;
     height: 120px;
+    align-self: flex-start;
   }
 
   .org {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .btn-contact {
